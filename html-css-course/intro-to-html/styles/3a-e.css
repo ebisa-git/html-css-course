@@ -1,0 +1,130 @@
+.uber {
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: opacity 0.15s;
+}
+
+.uber:hover {
+    opacity: 0.7;
+}
+
+.amazon {
+    background-color: rgb(226, 193, 25);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: backgound-color 0.15s;
+}
+
+.amazon:hover {
+    background-color: #dadd0e;
+}
+
+.GITHUB {
+    background-color: rgb(81, 190, 112);
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.GITHUB:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-get-started {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.bootstrap-get-started:hover {
+    background-color: rgb(83, 2, 204);
+}
+
+
+.bootstrap-download {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.bootstrap-download:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin-apply {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.15s;
+}
+
+.linkedin-apply:hover {
+    background-color: #1239a1;
+}
+
+.linkedin-save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 0.15s;
+}
+
+.linkedin-save:hover {
+    background-color: #c0ceee;
+}

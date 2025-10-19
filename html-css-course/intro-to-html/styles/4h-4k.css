@@ -1,0 +1,106 @@
+.back {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.next {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.strech {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: padding-top 0.1s,
+        padding-bottom 0.1s,
+        padding-left 0.1s,
+        padding-right 0.1s,
+        border-radius 0.1s;
+}
+
+.strech:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    transition: box-shadow 0.15s;
+    padding: 10px;
+    transition: backgroung-color 0.15s, 
+            color 0.15s;
+}
+.shadow:hover{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.shadow:active{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+}
+.one{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition:padding-right 0.15s,
+        padding-left 0.15s,
+        margin-left 0.15s,
+        margin-right 0.15s;
+    }
+.one:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left:5px ;
+    margin-right: 5px;
+}
+
+
+.two{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition:padding-right 0.15s,
+        padding-left 0.15s,
+        margin-left 0.15s,
+        margin-right 0.15s;
+}
+.two:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.three{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition:padding-right 0.15s,
+        padding-left 0.15s,
+        margin-left 0.15s,
+        margin-right 0.15s;
+}
+.three:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
